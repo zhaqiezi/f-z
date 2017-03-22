@@ -1,0 +1,53 @@
+
+.Wrap{
+  margin:0 auto;
+}
+
+.top{
+  padding-left:20px;
+  line-height: 30px;
+  color: #999;
+  ont-size: 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.fl{
+  float: left;
+  margin-left: 60px;
+}
+
+.sn-l{
+  padding: 0px 20px;
+}
+
+.fr{
+  float: right;
+  width: auto;
+  margin-right: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{color:red;}
+
+.search{
+  margin: 20px 0px;
+  width: 270px;
+  height: 36px;
+  border: 2px solid red;
+}
+header button{
+  width: 100px;
+  height: 36px;
+  border: 2px solid red;
+  background-color: red;
+}
+header li{
+  display: inline-block;
+  border-right:1px solid #999
+}

@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.fz-dir-li {
+    position: relative;
+    cursor: pointer;
+    clear: both;
+    line-height: 35px;
+}
+
+.fz-dir-li:hover {
+    background: #f6f6f6;
+    box-shadow: 0px 2px 4px #eaeaea;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+}
+/* 有序列表 */
+
+.fz-dir-ul {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    width: 500px;
+    margin:30px auto;
+    counter-reset: li0;
+    list-style: none;
+    clear: both;
+}
+
+.fz-dir-li0 {
+    padding-left: 0em;
+    counter-reset: li1;
+}
+
+.fz-dir-li1 {
+    padding-left: 1.5em;
+    counter-reset: li2;
+}
+
+.fz-dir-li2 {
+    padding-left: 3em;
+    counter-reset: li3;
+}
+
+.fz-dir-li3 {
+    padding-left: 4.5em;
+    counter-reset: li4;
+}
+
+.fz-dir-li4 {
+    padding-left: 6em;
+    counter-reset: li5;
+}
+
+.fz-dir-li5 {
+    padding-left: 7.5em;
+    counter-reset: li6;
+}
+
+.fz-dir-li6 {
+    padding-left: 9em;
+    counter-reset: li7;
+}
+
+.fz-dir-li7 {
+    padding-left: 10.5em;
+    counter-reset: li8;
+}
+
+.fz-dir-li8 {
+    padding-left: 12em;
+    counter-reset: li9;
+}
+
+.fz-dir-li0:before,
+.fz-dir-li1:before,
+.fz-dir-li2:before,
+.fz-dir-li3:before,
+.fz-dir-li4:before,
+.fz-dir-li5:before,
+.fz-dir-li6:before,
+.fz-dir-li7:before,
+.fz-dir-li8:before {
+    padding-right: 5px;
+    padding-left: 15px;
+    float: left;
+    font-size: 13px;
+    line-height: 35px;
+    color: #333333;
+}
+
+.fz-dir-li0:before {
+    counter-increment: li0;
+    content: counter(li0) ". ";
+
+}
+
+.fz-dir-li1:before {
+    counter-increment: li1;
+    content: counter(li1) ". ";
+
+}
+
+.fz-dir-li2:before {
+    counter-increment: li2;
+    content: counter(li2) ". ";
+
+}
+
+.fz-dir-li3:before {
+    counter-increment: li3;
+    content: counter(li3) ". ";
+}
+
+.fz-dir-li4:before {
+    counter-increment: li4;
+    content: counter(li4) ". ";
+}
+
+.fz-dir-li5:before {
+    counter-increment: li5;
+    content: counter(li5) ". ";
+}
+
+.fz-dir-li6:before {
+    counter-increment: li6;
+    content: counter(li6) ". ";
+}
+
+.fz-dir-li7:before {
+    counter-increment: li7;
+    content: counter(li7) ". ";
+}
+
+.fz-dir-li8:before {
+    counter-increment: li8;
+    content: counter(li8) ". ";
+}
+
+.fz-doc-classRightDir {
+    left: 70px;
+    z-index: 2;
+    transition: all 0.5s ease 0s;
+}
+
+.fz-dir-down{
+  display: none;
+  position: absolute;
+  top:2px;
+  right: 10px;
+  width: 30px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.fz-dir-down:hover{
+  color: #09f;
+}

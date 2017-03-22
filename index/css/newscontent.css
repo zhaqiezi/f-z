@@ -1,0 +1,148 @@
+.top{
+  background-color: #000;
+  color: #bbb;
+}
+.top a{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  color: #eee;
+  text-align: center;
+}
+.space{
+  margin-right: 30px;
+}
+.choosed{
+  background-color:#f00;
+}
+.top .choosed:hover{
+  color: #01f;
+}
+.footer{
+  position: absolute;
+  /*bottom: 0px;*/
+  width: 100%;
+  margin-top:20px;
+  padding-top: 40px;
+  height: 165px;
+  text-align: center;
+  background-color: #393F50;
+}
+.footer-wrap{
+  margin: 0 auto;
+  width: 1100px;
+}
+.footer-list-wrap{
+  float: left;
+  width: 200px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  color: #eee;
+}
+.footer-list-wrap li{
+  height: 20px;
+  line-height: 20px;
+}
+.scan div{
+  margin-right: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+.scan img{
+  width: 76px;
+  height: 76px;
+}
+.copyright{
+  margin-top: 30px;
+  font-size: 12px;
+  color: #747884;
+  text-align: center;
+  border-top: 1px solid #4D5261;
+  padding: 10px 0;
+}
+
+.main{
+  position: relative;
+  margin:20px auto;
+  width: 620px;
+}
+.header{
+  margin: 5px 0px 20px 0px;
+}
+.avatar{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+}
+.header a{
+  margin: 0px 10px 0px 5px;
+}
+.header div{
+  margin: 0px 0px 5px 0px;
+  font-size: 13px;
+  color: #999;
+}
+.header div span{
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+  color: #E8710A;
+  border: 1px solid #E8710A;
+}
+.header div a{
+  color: #01f;
+}
+.header div a:hover{
+  color:#0cc;
+}
+.header .btn{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #eee;
+  background-color: #49be38;
+  border-radius: 15px;
+  cursor:pointer;
+}
+
+.content h1{
+  font-size: 24px;
+}
+.content span{
+  display: inline-block;
+  margin:10px 10px 10px 0px;
+  color: gray;
+
+}
+.content .article,strong{
+  line-height: 40px;
+  font-size: 16px;
+}
+.content .article p{
+  text-align: center;
+}
+.main-footer{
+  margin: 40px 0px;
+}
+.main-footer a{
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #e78170;
+  border: 1px solid #e78170;
+  border-radius:30px;
+}
+.main-footer span{
+  margin-top: 20px;
+  color: gray;
+  font-size: 12px;
+}

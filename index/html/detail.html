@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head xmlns="http://www.w3c.org/1999/xhtml">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../common/master.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/detail.css"/>
+    <script src="../js/jquery-1.12.0.min.js" charset="utf-8"></script>
+    <base href="#" target="">
+    <title>商城|商品详情</title>
+  </head>
+  <body>
+    <div class="Wrap clearall">
+      <div class="top">
+        <form class="fl" action="index.html" method="post">
+          <span>Hi,欢迎来到商城</span>
+          <a class="float-style" href="login.html">请登录</a>
+          <a class="float-style" href="register.html">免费注册</a>
+        </form>
+        <form class="fr" action="index.html" method="post">
+          <a href="#">社区</a>
+        </form>
+        <div class="clearall"></div>
+      </div>
+      <header class="container">
+        <img class="fl" src="../imge/logo.png" alt="logo" width="240px" height="130px"/>
+          <div class="fl">
+          <div class="search-box" >
+            <input class="search" type="search" placeholder="请输入您要寻找的关键词" /><button type="submit" name="button">搜索</button>
+          </div>
+            <ul>
+              <li><a href="#">针织衫女</a></li>
+              <li><a href="#">外套</a></li>
+              <li><a href="#">四件套</a></li>
+              <li><a href="#">笔记本电脑</a></li>
+              <li><a href="#">吸顶灯</a></li>
+            </ul>
+          </div>
+      </header>
+      <!-- 导航栏 -->
+      <div class="nav container">
+        <ul type="none">
+              <li class="fl float-style"><a href="../html/home.html">首页</a></li>
+          <li class="fl float-style"><a href="news.html">新闻中心</a></li>
+          <li class="fr float-style"><a href="#">后台管理</a></li>
+          <li class="fr float-style"><a href="#">会员中心</a></li>
+          <div class="clearall"></div>
+        </ul>
+      </div>
+      <!--活动倒计时倒计时-->
+      <div class="countdown container">距离活动结束时间： <span class="countdown"></span></div>
+      <!-- 物品展示、价格、规格选择 -->
+      <div class="model container clearall">
+        <div class="show fl">
+          <div class="samplebox">
+            <img id="detail-img" src="../imge/trousers.jpg" alt="trousers"/>
+            <div class="hover"></div>
+          </div>
+          <div class="showbox">
+            <img src="../imge/trousers.jpg" alt="trousers">
+          </div>
+          <br/>
+          <div class="show-example">
+            <img src="../imge/show1.jpg" alt="show"/>
+            <img src="../imge/show2.jpg" alt="show"/>
+            <img src="../imge/show3.jpg" alt="show"/>
+            <img src="../imge/show4.jpg" alt="show"/>
+            <img src="../imge/show5.jpg" alt="show"/>
+          </div>
+        </div>
+        <div class="style fl">
+          <div class="style-title">
+            <h1>HLA/海澜之家水洗休闲裤春季热卖男装微弹修身裤子</h1>
+            <p>腰部织带镶嵌 微微弹力 修身版型 时尚基础款</p>
+          </div>
+          <div class="style-price clearall">
+            <img  src="../imge/logo-ticket.png" alt="logo-ticket"/>全天猫实物商品通用
+            <a class="fr" href="#">去刮卷</a>
+            <p>价格<span class="price">&yen;168.00</span><span class="fr">已卖出：84件</span></p>
+            <p>本店活动<span class="style-activity">满68元，包邮</span><a class="fr" href="#">更多优惠<strong>&or;</strong></a></p>
+            <p >配送<span class="address">福建厦门 至 福建厦门 <br/>免费送货到厦门自提+0.00元</span></p>
+          </div>
+          <div class="style-choose ">
+            <dl class="clearall">
+              <!-- 选择尺码 -->
+              <dt class="style-choose-size">尺码</dt>
+              <dd>
+                  <ul class="" type="none">
+                    <li><a href="#">165/72A</a></li>
+                    <li><a href="#">170/74A</a></li>
+                    <li><a href="#">175/84A</a></li>
+                    <li><a href="#">170/78A</a></li>
+                    <li><a href="#">175/82A</a></li>
+                    <li><a href="#">175/88A</a></li>
+                  </ul>
+              </dd>
+              <!-- 选择颜色 -->
+              <dt class="style-choose-color">颜色</dt>
+              <dd>
+                <ul>
+                  <li id="color-blue">蓝色</li>
+                  <li id="color-black">黑色</li>
+                  <li id="color-white">白色</li>
+                </ul>
+              </dd>
+              <!-- 选择数量 -->
+              <dt class="style-choose-num">数量</dt>
+              <dd>
+                <button id="reduseNum" type="button" name="button">-</button><input id="num" type="text" value="1"><button id="addNum" type="button" name="button">+</button>
+                <span>库存量：<span id="stock">500</span></span>
+              </dd>
+            </dl>
+          </div>
+          <div class="style-ensure">
+            <button id="buy-now"><a  href="#">立即购买</a></button>
+            <button id="buy-later"><a href="#">加入购物车</a></button>
+          </div>
+        </div>
+      </div>
+      <!-- 物品详情 -->
+      <div class="nav-secondarily container ">
+        <ul type="none">
+          <li><a href="#">详细信息</a></li>
+          <li><a href="#">店铺详情</a></li>
+          <li><a href="#">评论<span></span></a></li>
+          <li><a href="#">订购说明</a></li>
+        </ul>
+      </div>
+      <div class="detail container">
+        <img src="../imge/detail.png" alt="">
+        <img  src="../imge/size-list.png" alt="">
+      </div>
+      <footer class="clearall">
+        <div class="container">
+          <p class="in">
+            <a href="#">关于天猫</a>
+            <a href="#">帮助中心</a>
+            <a href="#">开放平台</a>
+            <a href="#">诚聘英才</a>
+            <a href="#">联系我们</a>
+            <a href="#">网站合作</a>
+            <a href="#">法律申明及隐私政策</a>
+            <a href="#">知识产权</a>
+            <a href="#">廉政举报</a>
+            <a href="#">规则意见征集</a>
+          </p>
+          <p class="out">
+            <a href="#">阿里巴巴集团</a>
+            <a href="#">淘宝网</a>
+            <a href="#">天猫</a>
+            <a href="#">聚划算</a>
+            <a href="#">全球速卖通</a>
+            <a href="#">阿里巴巴国际交易市场</a>
+            <a href="#">1688</a>
+            <a href="#">阿里妈妈</a>
+            <a href="#">飞猪</a>
+            <a href="#">阿里云计算</a>
+            <a href="#">YunOS</a>
+            <a href="#">阿里通信</a>
+            <a href="#">万网</a>
+            <a href="#">高德</a>
+            <a href="#">UC</a>
+            <a href="#">友盟</a>
+            <a href="#">虾米</a>
+            <a href="#">阿里星球</a>
+            <a href="#">来往</a>
+            <a href="#">钉钉</a>
+            <a href="#">支付宝</a>
+          </p>
+          <div class="footer">
+            增值电信业务经营许可证：
+            <a href="#">浙B2-20110446</a>
+            网络文化经营许可证：
+            <a href="#">浙网文[2015]0295-065号</a>
+            互联网药品交易服务资格证书 国A20150001
+            <br/>
+            互联网药品信息服务资质证书编号：
+            <a href="#">浙-（经营性）-2012-0005</a>
+
+            <a href="#"><img src="../imge/logo-police.png">浙公网安备 33010002000120号</a>
+            <br/>
+            <span>&copy;2003-2017 TMALL.COM 版权所有</span>
+            <br/>
+            <img src="../imge/zhegongshang.jpg" alt=""/>
+            <img src="../imge/logo-licence.jpg" alt=""/>
+          </div>
+          </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="../js/detail.js"></script>
+    <script type="text/javascript" src="../js/big.js"></script>
+    <script src="../js/countdown.js" charset="utf-8"></script>
+  </body>
+</html>

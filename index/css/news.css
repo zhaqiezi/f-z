@@ -1,0 +1,266 @@
+.avatar{
+    border-radius:50%;
+}
+
+.top{
+  background-color: #000;
+  color: #bbb;
+}
+.top a{
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  color: #eee;
+  text-align: center;
+}
+.space{
+  margin-right: 30px;
+}
+.choosed{
+  background-color:#f00;
+}
+.top .choosed:hover{
+  color: #01f;
+}
+.wrap{
+  margin-top: 20px;
+}
+.nav-title img{
+  width: 115px;
+  height: 30px;
+}
+.nav-list a{
+  display: block;
+  margin:10px;
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+  font-weight:600;
+  letter-spacing:7px;
+  text-align: center;
+}
+.nav-list a:hover{
+  color: #fff;
+  background-color:#f00;
+  border-radius: 10px;
+}
+.content-news{
+  margin:20px 0px 0px 0px;
+}
+
+.news-data{
+  position: relative;
+  width:600px;
+  padding: 15px 10px 10px 0px;
+  border:1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+.news-data:hover{
+  background-color:#eee;
+}
+.news-data .data-img{
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  width: 150px;
+  height: 115px;
+
+}
+.news-data .avatar{
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.news-data div{
+  width: 450px;
+}
+.news-data>a{
+  margin-right:20px;
+  width: 140px;
+  height: 90px;
+}
+.news-data h2{
+  margin: 10px 0px;
+}
+.news-data h2>a{
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+.news-data a:hover{
+  color: #f00;
+}
+.news-data span{
+  margin:0px 10px 0px 10px;
+  color: gray;
+}
+.news-data .collection-tag{
+  border: 1px solid #ea6f5a;
+}
+
+.rside{
+  width: 280px;
+}
+.rside .rank{
+  border:1px solid #eee;
+}
+.rank>img{
+  margin-bottom: 5px;
+  width: 280px;
+  height: 50px;
+  cursor: pointer;
+}
+.rankdata{
+  display: none;
+}
+.rankdata a:hover{
+  color:#f00;
+}
+.rankdata h1 a{
+  width: 65px;
+  border-top: 1.5px solid #f00;
+  font-size: 18px;
+  color: #111;
+}
+.rankdata em{
+  margin:5px 0px 0px 0px;
+  float:left;
+  width: 27px;
+  height:30px;
+  font-size: 16px;
+  font-family: "Georgia";
+}
+.rankdata li{
+  margin: 10px 0px;
+  width: 280px;
+  height: 30px;
+}
+.rankdata li:hover{
+  border-right: 2px solid #f00;
+}
+.rankdata .rankdata-top>em{
+  margin-top: 0px;
+  font-size: 26px;
+  font-weight:bold;
+  color: #f00;
+}
+.rankdata li a{
+  float: left;
+  width:200px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.rankdata li span{
+  float:left;
+  margin:5px 0px 0px 5px;
+  color: #f00;
+}
+
+.rside .dlapp{
+  position: relative;
+  width: 280px;
+  height: 140px;
+  background-image: url(../imge/newsapp.png);
+  background-size: 280px 140px;
+}
+.rside .dlapp .dlapp-way{
+  position: absolute;
+  bottom:10px;
+}
+.rside .dlapp .dlapp-way>div{
+  float: left;
+  margin-left: 12px;
+  width: 77px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #eee;
+  cursor:pointer;
+  background-color: #892;
+  border-radius:15px;
+}
+.rside .author{
+  margin: 20px 0px;
+}
+
+.author a{
+  margin-right: 10px;
+}
+.author h1{
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+}
+.author li{
+    margin-bottom: 20px;
+    height: 50px;
+}
+.author li .avatar{
+  width: 50px;
+  height: 50px;
+}
+.author li>span{
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+}
+.author li>p{
+  margin-top:5px;
+  font-size: 13px;
+  color: gray;
+
+}
+.author li .btn{
+  color: #0c9;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer{
+  margin-top:20px;
+  padding-top: 40px;
+  height: 165px;
+  text-align: center;
+  background-color: #393F50;
+}
+.footer-wrap{
+  margin: 0 auto;
+  width: 1100px;
+}
+.footer-list-wrap{
+  float: left;
+  width: 200px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 200;
+  color: #eee;
+}
+.footer-list-wrap li{
+  height: 20px;
+  line-height: 20px;
+}
+.scan div{
+  margin-right: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+.scan img{
+  width: 76px;
+  height: 76px;
+}
+.copyright{
+  margin-top: 30px;
+  font-size: 12px;
+  color: #747884;
+  text-align: center;
+  border-top: 1px solid #4D5261;
+  padding: 10px 0;
+}

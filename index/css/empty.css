@@ -1,0 +1,10 @@
+.stopwatch{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin: -50px 0px 0px -150px;;
+  padding: 30px;
+  line-height: 100px;
+  border: 1px solid red;
+  overflow: hidden;
+}

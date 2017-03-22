@@ -1,0 +1,123 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+
+.container{
+  width: 1080px;
+  margin: 0px auto;
+}
+
+.Wrap{
+  margin:0 auto;
+}
+
+.top{
+  min-width: 500px;
+  padding:0px 10px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #0c0c0c;
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.float-style{
+  padding: 0px 10px;
+}
+
+.top a:hover{color:red;}
+
+header{
+  height: 130px;
+}
+header img{
+  margin-left: -20px;
+}
+.search-box{
+  margin-top: 30px;
+  margin-left:100px;
+  border: 2px solid #c40000;
+}
+.search{
+  width: 500px;
+  height: 36px;
+  border:none;
+  outline: 0px;
+}
+
+header button{
+  width: 132px;
+  height: 36px;
+  font-size:18px;
+  font-weight:700;
+  color: #fff;
+  background-color: #c40000;
+  border:hidden;
+  letter-spacing: 3px;
+}
+header ul{
+  margin-left: 100px;
+}
+header li{
+  display: inline-block;
+  margin-top: 10px;
+  width: 80px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+}
+header li>a{
+  color: #aaa;
+}
+header li>a:hover{
+  color: #069;
+}
+.nav{
+  color: #fff;
+  background-color: #f00;
+  border: 1px solid #f00;
+  overflow: hidden;
+}
+
+.nav a{
+  color: #fff;
+}
+.nav a:hover{
+  background: #fff;
+  color: red;
+}
+
+footer{
+  margin-top:30px;
+  font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+  color: #fff;
+  background-color: #000;
+  border-top:2px solid red;
+}
+.in{
+  margin-top: 10px;
+}
+p a{
+  margin-right: 3px;
+  font-size: 12px;
+  line-height: 25px;
+  color: #eee;
+}
+.out{
+  margin-top: 10px;
+}
+.out a{
+  margin:10px 2px 5px 0px;
+  padding-right:3px;
+  border-right: 1px solid #eee;
+}
+
+.footer{
+  color: gray;
+}
+.footer a{
+  margin-right: 80px;
+}
