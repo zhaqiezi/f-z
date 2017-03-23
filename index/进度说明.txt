@@ -1,3 +1,7 @@
+2017.03.23
+1.用php实现简单的注册功能（regist.php）;
+2.用php实现简单的登录功能（login.php）
+
 2017.03.21
 1.用php写一个简单的留言板(test.php,test2.html)
 

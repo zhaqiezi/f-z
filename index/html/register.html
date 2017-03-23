@@ -10,12 +10,13 @@
     <div class="register">
         <div class="register-title"><h1>注册</h1></div>
         <a class="fr" href="../html/login.html">登录</a>
-        <form class="write">
+        <form  action="http://localhost/regist.php" method="post" class="write">
           <div class="write-phonenum space">
-          <div class="userName">账号<input type="text"/></div>
-          <div class="password">密码<input type="password" name="" value=""><br/></div>
-          <div class="rePassword">重复密码<input type="password" name="" value=""><br/></div>
-          <button type="submit" name="button">注册</button>
+          <div class="userName">用户名<input type="text" name="username" ></div>
+          <div class="userName">手机号<input type="text" name="phonenumber" ></div>
+          <div class="password">密码<input type="password" name="password" value=""><br/></div>
+          <div class="rePassword">重复密码<input type="password" name="repassword" value=""><br/></div>
+          <button type="submit" name="submit">注册</button>
           <button type="reset" name="button">重置</button>
         </form>
         <script src="../js/register.js" charset="utf-8"></script>

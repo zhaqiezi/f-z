@@ -1,7 +1,7 @@
-var submit=document.getElementsByName('button')[0];
-var userName=document.getElementsByTagName('input')[0];
-var password=document.getElementsByTagName('input')[1];
-var rePassword=document.getElementsByTagName('input')[2];
+var submit=document.getElementsByName('submit')[0];
+var userName=document.getElementsByName('username')[0];
+var password=document.getElementsByName('password')[0];
+var rePassword=document.getElementsByName('repassword')[0];
 submit.onclick=validate;
 function validate(){
   if(userName.value==''){
