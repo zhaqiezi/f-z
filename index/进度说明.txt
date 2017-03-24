@@ -1,3 +1,6 @@
+2017.03.24
+1.看bootstrap（background-management.html)
+
 2017.03.23
 1.用php实现简单的注册功能（regist.php）;
 2.用php实现简单的登录功能（login.php）

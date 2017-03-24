@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>后台管理</title>
+        <!-- Bootstrap -->
+        <link href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            [class *= col-]{
+              background-color: #eee;
+              border: 1px solid #ccc;
+            }
+            [class *= col-] [class *= col-] {
+              background-color: #f36;
+              border:1px dashed #fff;
+              color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello, world! <small>welcome</small></h1>
+        <p class="text-primary">primary</p>
+        <p class="text-successs">success</p>
+        <p class="text-info">info</p>
+        <p class="text-warning">warning</p>
+        <p class="text-danger">danger</p>
+        <blockquote>这是一个引用</blockquote>
+        <div>和引用对比，看看效果</div>
+        <p>这是一个普通的p标签，也是用来对比的</p>
+        <br>
+        <br>
+        <p><code>这是内联的代码</code></p>
+        <pre>这是独立的代码块
+            while(true){
+            document.write('hello word!');
+            }
+        </pre>
+        <br><br>
+        <!-- bootstrap表格  star-->
+        <table class="table table-bordered table-condensed table-hover table-responsive">
+         <caption>这是一个测试表格</caption>
+            <thead>
+                <tr class="success">
+                    <th>11</th>
+                    <th>12</th>
+                    <th>13</th>
+                </tr>
+            </thead>
+            <tr class="danger">
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr class="info">
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+        </table>
+        <!-- bootstrap表格 end -->
+        <br><br>
+        <!-- bootstrap 表单 star -->
+        <form class="form-horizontal" action="" role="form">
+            <div class="form-group">
+                <label class=" col-sm-2" for="name">
+                    名称<input id="name" type="text" class="form-control" placeholder="名称">
+                </label>
+            </div>
+            <div class="form-group">
+                <label class=" col-sm-2" for="file">
+                    上传文件<input id="file" type="file" class="form-control">
+                </label>
+            </div>
+            <div class="checkbox">
+                <label class=" col-sm-2">
+                    <input  type="checkbox">请打勾
+                </label>
+            </div>
+            <select name="" id="" class="form-control" multiple>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+            <select name="" id="" multiple>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+            <button class="btn btn-info btn-lg" type="submit" disabled>提交</button>
+        </form>
+        <!-- bootstrap 表单 end  -->
+        <br><br>
+        <!-- bootstrap 图片 star-->
+        <img src="../imge/avatar.png" alt="" class="img-thumbnall center-block">
+        <!-- bootstrap 图片 end -->
+        <br><br>
+        <!-- bootstrap 图标 star -->
+        <span class="glyphicon glyphicon-remove"></span>
+        <!-- bootstrap 图标 end -->
+        <br><br>
+        <!-- bootstrap 网格系统 star -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-8">col-md-8</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+                <div class="col-md-4">col-md-4</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">col-md-3</div>
+                <div class="col-md-6">col-md-6</div>
+                <div class="col-md-3">col-md-3</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-push-5">col-md-3</div>
+                <div class="col-md-5 col-md-pull-3">col-md-5</div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    col-md-8
+                    <div class="row">
+                        <div class="col-md-8">col-md-8嵌套的col-md-8</div>
+                        <div class="col-md-4">col-md-8嵌套的col-md-4</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    col-md-4嵌套的
+                    <div class="row">
+                        <div class="col-md-9">col-md-4嵌套的col-md-9</div>
+                        <div class="col-md-3">col-md-4嵌套的col-md-3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bootstrap 网格系统 end -->
+        <br><br>
+        <!-- bootstrap 下拉菜单 star -->
+        <div class="dropdown">
+            <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                下拉菜单<span clas="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelleby="dropdownMenu1">
+                <li role="presentation" class="dropdown-header">名字</li>
+                <li role="presentation">虎子</li>
+                <li role="presentation">刚子</li>
+                <li role="presentation">单子</li>
+                <li role="presentation">行子</li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation" class="dropdown-header">爱好</li>
+                <li role="presentation">拼刺刀</li>
+                <li role="presentation">拼刺刀</li>
+                <li role="presentation">拼刺刀</li>
+                <li role="presentation">拼刺刀</li>
+            </ul>
+        </div>
+        <!-- bootstrap 下拉菜单 end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 引用jquery -->
+        <script src="../js/jquery-1.12.0.min.js"></script>
+        <!-- 引用bootstrap -->
+        <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 $str=$_POST['title'].','.$_POST['content']."\n";
 $file=fopen('./welcome.txt', 'a');
 fwrite($file, $str);

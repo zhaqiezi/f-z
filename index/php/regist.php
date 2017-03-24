@@ -23,7 +23,7 @@
 		} else {
 			echo "注册失败";
 		}
-
+		$conn=NUll;
 	} catch (PDOException $e) {
 		echo "注册失败<br>";
 		echo $e->getMessage();
