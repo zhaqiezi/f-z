@@ -1,0 +1,7 @@
+@mixin rounded($vert,$horz,$radius:10px){
+	border-#{$vert}-#{$horz}-radius:$raidus;
+	-moz-border-raidus-#{$vert}-#{$horz}:$radius;
+	-webkit-border-#{$vert}-#{$horz}-radius:$radius;
+}
+#navbar li { @include rounded(top,left);}
+#footer { @include rounded(top,left,5px);}
